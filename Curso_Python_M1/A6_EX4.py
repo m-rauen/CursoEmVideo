@@ -1,0 +1,6 @@
+entrada_generica=input('Digite algo, qualquer coisa:')
+print('Qual o tipo da variável digitada? {}'.format(type(entrada_generica)))
+print('O que foi digitado é número? {}'.format(entrada_generica.isnumeric()))
+print('O que foi digitado é caracter? {}'.format(entrada_generica.isalpha()))
+print('O que foi digitado está em branco? {}'.format(entrada_generica.isspace()))
+print('O que foi digitado é decimal? {}'.format(entrada_generica.isdecimal()))

@@ -1,0 +1,6 @@
+quilo=float(input('Quantos km foram percorridos com o carro: '))
+dias=int(input('Digite quantos dias você ficou com o carro: '))
+tx=(60*dias)+(0.15*quilo)
+print('='*50)
+print('Para um empréstimo de {} dias e {} km rodados, você terá que pagar R$ {:.2f}'.format(dias,quilo,tx))
+print('='*50)
