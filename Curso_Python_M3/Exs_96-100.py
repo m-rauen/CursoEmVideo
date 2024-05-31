@@ -13,7 +13,7 @@ def escreva(msg):
     print('{:<5}'.format(msg), end='\n')
     print('~' * 20, end='\n')
     
-nome = str(input('Digite seu nome completo: ')). capitalize()
+nome = str(input('Digite seu nome completo: ')).capitalize()
 escreva(nome)
 
 #Ex98

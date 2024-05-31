@@ -2,7 +2,8 @@
 from datetime import date as dt
 
 def votar(ano):
-    idade = dt.today().year - ano
+    idade = 2024 - ano
+    #idade = dt.today().year - ano
     if (idade >= 70):
         print('Com {} anos: VOTO FACULTATIVO'.format(idade))
     elif (18 <= idade < 70):
@@ -51,8 +52,6 @@ def leiaInt(valor):
     else:
         print('Erro! Digite um número inteiro válido!')
         numero = leiaInt(input('Digite um número: '))
-        #print(numero)
-
         
 numero = leiaInt(input('Digite um número: '))
 print('Você acabou de digitar o número {}'.format(numero))
